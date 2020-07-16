@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./zipcode-entry.component.scss']
 })
 export class ZipcodeEntryComponent implements OnInit {
+    zipcodes: string[] = [];
 
   constructor() { }
 
