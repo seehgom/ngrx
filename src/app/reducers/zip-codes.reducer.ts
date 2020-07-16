@@ -8,7 +8,7 @@ import { Action } from '@ngrx/store';
 export const zipCodesFeatureKey = 'zipCodes';
 
 export interface ZipCodeState {
-  zipcodes: String[];
+  zipcodes: Array<string>;
 }
 
 export const initialState: ZipCodeState = {
